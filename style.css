@@ -38,6 +38,7 @@ img{
     height: 35vh; 
 }
 /* fin header */
+
 #quizz-container{
     margin-top: 2.5em;
 }
@@ -137,16 +138,16 @@ button:hover{
 
 #btn-next > span{
     background-color: inherit; 
-    margin-left: 0.5em;
+    padding-left: 0.5em;
     font-size: inherit;
     font-weight: bold;
-    padding-left: 1em;
 }
 
 #btn-next{
     background-color: #cfbecd;
     border-color: #cfbecd;
-}
+    padding: 17px 27px;
+  }
 
 #btn-validation{
     border-color: #1dab7ab3;
@@ -204,7 +205,7 @@ button:hover{
     }
 
     img{
-        width: 50%;
+        width: 40%;
         margin:0 auto;
     }
 
@@ -215,6 +216,7 @@ button:hover{
     #question-quizz{
         width:60%;
     }
+
     .choice-box{
         padding: 2em 1em;
     }
